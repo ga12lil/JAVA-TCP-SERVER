@@ -10,7 +10,7 @@ public class ClientExample1 {
         client.start();
 
         Scanner scanner = new Scanner(System.in);
-        while (true) {
+        while(true) {
             String line = scanner.nextLine();
             client.sendMessage(line);
         }
